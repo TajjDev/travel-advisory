@@ -1,0 +1,137 @@
+#thenav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    /* margin-top: 3%; */
+  
+    align-items: center;
+    color: rgba(7, 7, 7, 0.748);
+    z-index: 1;
+    box-shadow: 0 0 10px #0a32ac;
+}
+
+#links {
+    width: 30%;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    width: 30%;
+    justify-content: center;
+}
+
+#logo{
+    margin-left: 50px;
+    width: 30%;
+}
+#theLogo{
+    width: 50%;
+}
+#theLogo img {
+    width: 70%;
+}
+
+#search input {
+    padding: 12px;
+    color: #fff;
+    font-size: 0.8rem;
+    outline: none;
+    border: 1px solid #0a32ac;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:1000px) {
+
+    input {
+        padding: 10px;
+        width: 150px;
+        font-size: 0.6rem;
+    }
+
+    #links {
+        margin-left: 0;
+        width: 40%;
+    }#theLogo img {
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:700px) {
+    input {
+        padding: 9px;
+        width: 150px;
+       height: 35px;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    input {
+        padding: 9px;
+        width: 150px;
+       height: 30px;
+    }
+    .dropdown button{
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        background: none;
+        border: none;
+        font-size: 1rem;
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #dropdown-content{
+        position: absolute;
+        margin-top: 20px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+    #links {
+       display: none;
+    }#search {
+        margin-right: 10px;
+    }
+    
+    #logo{
+        margin-left: 10px;
+    }#thelogo img {
+        width: 70%;
+    }
+}
+@media screen and (max-width:500px) {
+    input {
+        padding: 5px;
+        width: 100px;
+       height: 30px;
+    }
+    .dropdown button{
+        font-size: 0.8rem;
+    }
+    .dropdown a{
+       font-size: 0.7rem;
+    }
+}
+@media screen and (max-width:400px) {
+    input {
+        padding: 3px;
+        width: 100px;
+       height: 25px;
+    }
+    .dropdown a{
+       font-size: 0.5rem;
+    }
+    .dropdown button{
+        font-size: 0.8rem;
+    }
+}

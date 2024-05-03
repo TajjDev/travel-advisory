@@ -1,0 +1,21 @@
+#person{
+    margin-top: 10%;
+    background: rgb(216, 229, 231);;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding: 10% 0 10% 0;
+  }
+  #per{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+  #per img{
+    border-radius: 10px;
+  }

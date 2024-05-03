@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: Poppins, sans-serif; */
+  background-color: #fff;
+  color: #000;
+}
+
+html {
+  /* scroll-behavior: smooth; */
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+#person{
+  border-radius: 1px solid red;
+}
+
+/* Section */
+/* section { */
+  /* padding-top: 4vh; */
+  /* height: auto; */
+  /* margin: 0 10rem; */
+  /* box-sizing: border-box; */
+  /* min-height: fit-content; */
+/* } */
+/*  */
+/* Travel Advisor Page */
+
+.travel-advisor {
+  position: relative;
+  /* z-index: -1; */
+}
+
+.card {
+  display: flex;
+
+  border-style: solid;
+
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 0.8125rem;
+  border-color: #d7ddf0;
+  /* border-color: green; */
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  flex-grow: 1;
+  max-width: inherit;
+}
+
+.card-1 {
+  height: 4.875rem;
+  width: 4.875rem;
+  border-radius: 50%;
+  /* border-style: solid; */
+  /* border-color: aqua; */
+
+}
+
+.card-2 {
+  
+  border-radius: 0.8125rem;
+  
+  margin: 0px;
+ 
+  padding: 5px;
+  /* border-style: solid; */
+  /* border-color: aqua; */
+  max-width: 15rem;
+}
+
+.card-3 {
+  margin-top: 5px;
+}
+
+.card-1 img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.card-2 > h1 {
+  font-size: 1.1rem;
+  margin: 0px;
+  margin-bottom: 5px;
+  color: #151b32;
+}
+
+.card-2 > p {
+  margin: 0px;
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: #585c6d;
+}
+.card-3 a{
+  text-decoration: none;
+}
+.card-3 p{
+  border-radius: 2rem;
+  border:1px solid #0a32ac;
+  background-color: #ffffff;
+  color: #0a32ac;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em;
+  /* margin-top: 5px; */
+  font-weight: 600;
+}
+#searche{
+  padding: 12px;
+    color: #fff;
+    font-size: 0.8rem;
+    outline: none;
+    border: 1px solid #0a32ac;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+}
+
+
+.card-page-user {
+  display: flex;
+  z-index: -1;
+  justify-content: center;
+  /* align-items: center; */
+   /*  flex-direction: column; */
+  flex-wrap: wrap;
+  column-gap: 0.9rem;
+  row-gap: 0.9rem;
+  /* padding: 1.25rem;  */
+}
+
+.card-control{
+  /* gap: 2rem; */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  /* background-color: hotpink; */
+/* max-width: 20rem; */
+  max-width: 25rem;
+}
+
+.card-2-email{
+  font-size: small;
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    margin: 0 5%;
+    height: fit-content;
+  }
+
+  .card-page-user {
+    margin-top: 2rem;
+  }
+
+  .card-control{
+    margin-top: 0;
+  }
+}
+
+
+/* @media screen and (max-width: 600px) { */
+  /* .title { */
+    /* font-size: 2rem; */
+  /* } */
+/*  */
+  /* .card-page-user { */
+    /* display: flex; */
+    justify-self: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+  /* } */
+/*  */
+  /* .card-control{ */
+    /* flex-wrap: wrap; */
+    /* z-index: -2; */
+  /* } */
+/*  */
+/*  */
+/*  */
+  /* .card{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  /* } */
+/*  */
+  /* .card-2{ */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding: 0px; */
+  /* } */
+/*  */
+  /* .card-page-filter{ */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 0.8rem; */
+  /* } */
+/* } */
